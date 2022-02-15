@@ -1,0 +1,14 @@
+- Verificar o status dos arquivos
+git status 
+
+- Adiciona arquivos modificados para a área staging
+git add . ou * ou -A
+
+- Pega os arquivos modificados no diretório e coloca em área de staging
+git commit -m "texto com a mensagem aqui"
+
+- Transfere os aquivos commitados para o servidor
+git push -u origin main(ou master)
+
+- Faz uma cópia dos arquivos do servidor para do diretório atual
+git clone [endereço dos arquivos no GitHub](Pode ser por HTTPS ou SSH ou CLI)
