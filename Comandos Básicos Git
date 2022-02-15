@@ -12,3 +12,6 @@ git push -u origin main(ou master)
 
 - Faz uma cópia dos arquivos do servidor para do diretório atual
 git clone [endereço dos arquivos no GitHub](Pode ser por HTTPS ou SSH ou CLI)
+
+- Remover arquivos rastreados pelo índice Git, e da área staging e diretório de trabalho. 
+git rm nomedoarquivo (Para mais opções consultar --help)
