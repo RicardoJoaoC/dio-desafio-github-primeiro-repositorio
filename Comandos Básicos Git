@@ -15,3 +15,13 @@ git clone [endereço dos arquivos no GitHub](Pode ser por HTTPS ou SSH ou CLI)
 
 - Remover arquivos rastreados pelo índice Git, e da área staging e diretório de trabalho. 
 git rm nomedoarquivo (Para mais opções consultar --help)
+
+Comandos para gerar autenticação por SSH:
+
+ssh-keygen -t ed25519 -C seuemail@empresa.com 
+cat id****.pub e coloca no github
+
+carregar o ssh-agent
+eval $(ssh-agent -s)
+
+ssh-add id**** (chave privada)
