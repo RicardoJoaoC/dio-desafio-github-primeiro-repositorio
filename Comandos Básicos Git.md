@@ -55,6 +55,18 @@ git reset [--soft] [--mixed] [--hard] hashaserresetada | Reseta o commit para o 
 ```
 git pull | Sicroniza os arquivos com o repositório remoto
 ```
+```
+git checkout -b [nomedanovabranch] | Sai da branch main e vai pra nova branch criada [nomedanovabranch]
+```
+```
+git branch -v | Mostra as braches existentes
+```
+```
+git merge [nomedabranch] | Mescla a branch main com a branch criada
+```
+```
+git branch -d [nomedabranch] | Remove a branch 
+```
 
 
 
