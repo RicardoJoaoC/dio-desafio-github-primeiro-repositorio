@@ -43,6 +43,18 @@ git diff | Mostra as diferenças entre os commits
 ```
 git switch [nomedabranch] | Troca de branch
 ```
+```
+git commit --amend -m"mensagemaseralterada" | Altera a mensagem de commit criada anteriormente 
+```
+```
+git restore [nomedoarquivoarestaurar] | Remove as modificações do arquivo
+```
+```
+git reset [--soft] [--mixed] [--hard] hashaserresetada | Reseta o commit para o commit anterior
+```
+```
+git pull | Sicroniza os arquivos com o repositório remoto
+```
 
 
 
